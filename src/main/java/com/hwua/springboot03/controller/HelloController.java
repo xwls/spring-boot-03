@@ -38,6 +38,7 @@ public class HelloController {
                 String defaultMessage = fieldError.getDefaultMessage();
                 error.put("field",field);
                 error.put("message",defaultMessage);
+                //改动了部分代码
                 errors.add(error);
             }
             return errors;
