@@ -1,0 +1,9 @@
+logging:
+  level:
+    com.hwua.springboot03: debug
+  file: D://logs/c.log
+  pattern:
+    file: "%d{HH:mm:ss:SS'S} --- %5level [%t] %logger{36} : %m %n"
+#    console: "%d{yyyy-MM-dd HH:mm:ss:SSS} %5p [%t] - %m%n"
+  path: D://logs
+#    console: "%d{yyyy-MM-dd HH:mm:ss:SSS} --- %5level [%t] %logger{36} : %m %n"
